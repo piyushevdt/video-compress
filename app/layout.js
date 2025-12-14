@@ -1,5 +1,7 @@
+import Header from "@/components/Header";
 import ThemeRegistry from "../theme/theme";
 import { Inter } from 'next/font/google';
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,7 +19,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className} style={{ background: 'linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #e9d5ff 100%)'
 , minHeight: '100vh' }}>
-        <ThemeRegistry>{children}</ThemeRegistry>
+        <ThemeRegistry>
+          <Header/>
+          {children}
+          <Footer/>
+          </ThemeRegistry>
       </body>
     </html>
   );
