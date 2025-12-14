@@ -21,7 +21,7 @@ export default function Header() {
             justifyContent: 'center'
           }}>
             <Icon 
-              icon="mdi:video-compress" 
+              icon="hugeicons:video-01" 
               width={32} 
               height={32}
               style={{ color: '#6366f1' }}
