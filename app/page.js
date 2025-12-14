@@ -131,7 +131,7 @@ export default function Home() {
                     </IconButton>
                   </Tooltip>
                 </Box>
-                <VideoPreview video={video} />
+                <VideoPreview video={video} onRemove={handleReset}/>
               </Box>
 
               {!result && !isCompressing && (
