@@ -176,7 +176,7 @@ export default function Footer() {
             >
               Made with <Icon icon="mdi:heart" style={{ color: '#ec4899' }} /> by&nbsp;
               <Link 
-                href="https://yourportfolio.com" 
+                href="https://portfolio-six-beta-17.vercel.app/" 
                 style={{ 
                   color: '#6366f1', 
                   textDecoration: 'none',
@@ -186,7 +186,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Your Name
+                Piyush Kumar Dewangan
               </Link>
             </Typography>
           </Stack>
